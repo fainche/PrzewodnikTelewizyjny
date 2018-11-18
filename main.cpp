@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Menu.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    Menu menu;
+    menu.menuGlowne();
     return 0;
 }
